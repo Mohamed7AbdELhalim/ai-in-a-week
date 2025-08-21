@@ -1,6 +1,6 @@
-! [ملاحظات الصورة](jpg img/channels4_profile.jpg)
+! [](jpg img/channels4_profile.jpg)
 
-! [ملاحظات الصورة](jpg img/channels4_banner.jpg)
+! [](jpg img/channels4_banner.jpg)
 
 
 ## الذكاء الاصطناعي في أسبوع - مصادر حلقات مجتمع بايثون العربي 🤖📰

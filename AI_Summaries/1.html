@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>ملخص الذكاء الاصطناعي 1</title>
+  <style>
+    body { font-family: 'Cairo', Arial, sans-serif; background: #fff; color: #222; margin: 0 2%; }
+    .banner { text-align:center; margin-top:20px; }
+    .yt-vid { display: flex; justify-content: center; margin: 20px 0; }
+    .table-title { font-size: 1.1em; color: #0540F2; margin: 25px 0 10px 0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 18px; direction: rtl; background: #f9fafc; }
+    th, td { border: 1px solid #0540F2; padding: 10px 8px; text-align: right; }
+    th { background: linear-gradient(90deg, #ff0000 0%, #0540F2 80%); color: #fff; }
+    .divider {
+      height: 6px;
+      background: linear-gradient(90deg, #0540F2, #fff, #ff0000, #fff, #0540F2);
+      background-size: 200% 100%;
+      animation: move 2s linear infinite;
+      border-radius: 3px;
+      margin: 18px 0;
+    }
+    @keyframes move {
+      0% {background-position:0% 50%;}
+      100% {background-position:100% 50%;}
+    }
+    .toggle-btn { background: #0540F2; color: #fff; border: none; padding: 6px 16px; border-radius: 6px; cursor: pointer; }
+    .hidden { display: none; }
+  </style>
+  <script>
+    function toggleInfo(id) {
+      var el = document.getElementById(id);
+      el.classList.toggle('hidden');
+    }
+  </script>
+</head>
+<body>
+  <div class="banner">
+    <img src="jpg img/channels4_profile.jpg" alt="شعار القناة" width="120">
+  </div>
+  <div class="divider"></div>
+  <h2 style="text-align:right; margin-top:0;">مقدمة</h2>
+  <p style="text-align:right; font-size:1.05em;">
+    مرحبًا بك في ملخص الذكاء الاصطناعي لهذا الأسبوع. في هذا الملف ستجد جداول منظمة تسهل عليك تصفح المعلومات والأوراق البحثية والنماذج بشكل مرتب من اليمين لليسار.
+  </p>
+  <div class="divider"></div>
+  <div class="yt-vid">
+    <iframe width="480" height="270" src="https://www.youtube.com/embed/ID_VIDEO" title="شرح الذكاء الاصطناعي" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="divider"></div>
+  <div class="table-title">جدول عنوين وتوقيتات الفيديو</div>
+  <table>
+    <tr>
+      <th>التوقيت</th>
+      <th>العنوان</th>
+    </tr>
+    <tr>
+      <td><a href="https://www.youtube.com/watch?v=ID_VIDEO&t=0s" target="_blank">00:00</a></td>
+      <td>مقدمة</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.youtube.com/watch?v=ID_VIDEO&t=135s" target="_blank">02:15</a></td>
+      <td>شرح النموذج الأول</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.youtube.com/watch?v=ID_VIDEO&t=330s" target="_blank">05:30</a></td>
+      <td>الأوراق البحثية الحديثة</td>
+    </tr>
+  </table>
+  <div class="divider"></div>
+  <div class="table-title">جدول النماذج</div>
+  <table>
+    <tr>
+      <th>رقم</th>
+      <th>اسم النموذج</th>
+      <th>شرح النموذج</th>
+      <th>روابط</th>
+      <th>الفئة</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>ChatGPT</td>
+      <td>
+        <button class="toggle-btn" onclick="toggleInfo('info1')">عرض/إخفاء</button>
+        <div id="info1" class="hidden">نموذج محادثة متقدم من OpenAI.</div>
+      </td>
+      <td><a href="https://chat.openai.com" target="_blank">زيارة</a></td>
+      <td>#نموذج_لغة</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Stable Diffusion</td>
+      <td>
+        <button class="toggle-btn" onclick="toggleInfo('info2')">عرض/إخفاء</button>
+        <div id="info2" class="hidden">توليد صور بالذكاء الاصطناعي.</div>
+      </td>
+      <td><a href="https://stablediffusionweb.com" target="_blank">الرابط</a></td>
+      <td>#رؤية_حاسوبية</td>
+    </tr>
+  </table>
+  <div class="divider"></div>
+  <div class="table-title">جدول الأوراق البحثية</div>
+  <table>
+    <tr>
+      <th>عنوان الورقة</th>
+      <th>المؤلفون</th>
+      <th>رابط</th>
+      <th>الفئة</th>
+    </tr>
+    <tr>
+      <td>Attention Is All You Need</td>
+      <td>Vaswani et al.</td>
+      <td><a href="https://arxiv.org/abs/1706.03762" target="_blank">اقرأ الورقة</a></td>
+      <td>#نموذج_تحويلي</td>
+    </tr>
+  </table>
+</body>
+</html>

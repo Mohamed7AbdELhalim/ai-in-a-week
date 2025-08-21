@@ -1,9 +1,8 @@
 <p align="center">
   <img src="jpg img/channels4_profile.jpg" alt="Profile" width="200" height="200" style="border-radius:20px;" />
 </p>
-<p align="center">
-  <img src="jpg img/channels4_banner.jpg" alt="Banner" width="500" height="200" />
-</p>
+
+<img src="jpg img/channels4_banner.jpg" alt="Banner" style="width:100%; display:block;" />
 
 ## الذكاء الاصطناعي في أسبوع - مصادر حلقات مجتمع بايثون العربي 🤖📰
 
